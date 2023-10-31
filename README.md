@@ -1,4 +1,8 @@
 # Gonzalez_Javier.zip
+
+NOMBRE: Javier González
+LINK: https://github.com/javierglezo/Gonzalez_Javier.zip  
+
 RESPUESTAS EXAMEN:
 1. Un pull request es la acción final de mandarle tus cambios de un repositorio al propietario de ese mismo repositorio que podrá aceptarlos o no. Ej. Hago un fork de su repositorio, me lo clono en local, realizo cambios, los subo con "git push" a mi copia de su repositorio y una vez tengo eso, desde su repositorio puedo mandarle una propuesta y así podrá integrar mis cambios (**pull request**)
 
@@ -14,16 +18,16 @@ RESPUESTAS EXAMEN:
 b)  Desde Universidad, primero vería la lista de archivos que contiene **ls -la** luego cd UAX y de nuevo ls -la y finalmente vería el archivo.txt. Sería ruta relativa ya que no parto de la raíz. **Aunque si se de antemano su localización exacta, directamente con cd UAX ya me llevaría hasta el lugar que contiene el archivo.txt**
 
 7. Opciones:
-1. b) clone
-2. b) git branch <nombre_rama>
-3. c) git checkout
-4. b) git add
-5. b) git commit
-6. b) git push
-7. c) git pull
-8. d) git merge
-9. a) git reset -hard
-10. c) git log
+    1b) clone
+    2b) git branch <nombre_rama>
+    3c) git checkout
+    4b) git add
+    5b) git commit
+    6b) git push
+    7c) git pull
+    8d) git merge
+    9a) git reset -hard
+    10c) git log
 
 8. Proceso integración correcta:
 Para integrar todos los cambios de manera limpia y satisfactoria, **primero me informaría** de los algoritmos de la rama matemáticas y los cambios de diseño UX, en este caso, es de suponer que los **cambios** de la rama UX están directamente **relacionados** con los nuevos algoritmos matemáticos. Una vez sé que tratan de lo mismo, es hora de **integrar cambios**. Como el código interno es el de la rama matemáticas y el de la vista de matemáticas es el de diseño UX, primero daría acceso a la **fusión de matemáticas** situándome en la rama develop y haciendo un rebase -i y seleccionando desde el primer commit de los nuevos algortimos. Así, a la hora de resolver problemas de fusión, irá uno a uno indicando los archivos con problemas. Una vez los tenga **integrados y sin problemas**, es hora de la **rama UX**. Sigo el mismo patrón y una vez integrados, ya habré integrado todos los cambios de ambas ramas. Ahora es momento de ver si se **visualizan corectamente**, para ello hago un open <nombre_del_archivo>. Si es correcta la visualización, la integración final en develop será **estable y funcional**.
